@@ -62,15 +62,12 @@ def get_readable_time(seconds: int) -> str:
 PM_START_TEXT = """
 *Hey B!tch {},*
 *Myself As Well As A Powerful Group Management Bot.I Can Managed Your Group.*
-
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
 × *Uptime:* {}
 × {} *users, across* {} *chats.*
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
-
 *Hit The The Help Button To Get List Of My Commands.××*
-
-*»•[Telegram Bot](T.me/Hypermen_rbot) » Powered By* [𓆩𝐒 𝐀 𝐌𓆪™](https://t.me/Piro_x_power)
+» Powered By* [𓆩𝐒 𝐀 𝐌𓆪™](https://t.me/Piro_x_power)
 """
 
 buttons = [
@@ -99,7 +96,7 @@ ABOUT1 = """
 """
 
 ABOUT2 = """
-*‣ Super x Support Chats*\nJoin My Support Group/Channel For Reporting Problems And Updates On @Super_x_robot.
+*‣ Super x Support Chats*\nJoin My Support Group/Channel For Reporting Problems And Updates On [Click](t.me/Super_x_robot).
 """
 
 REPO_TXT = """
@@ -121,7 +118,7 @@ ABOUT3 = """Hello [{}], My name is *SuPer x Robot*. A Powerful Telegram Group Ma
             \n\n*If you have any Question, You can join Support Chat. My Developer Team will Answer. Check Support Button Below*"""
 
 HELP_STRINGS = """
-Hey [{}] *SuPerxRobot* here!
+Hey [{}] *@SuPer_x_Robot* here!
 I Help Admins To Manage Their Groups!
 Main commands available :
  ‣ /help: PM's you this message.
@@ -309,7 +306,7 @@ def start(update: Update, context: CallbackContext):
         first = update.effective_user.full_name
         chat = update.effective_chat.title
         update.effective_message.reply_video(
-                video="https://telegra.ph/file/c49829f9f5d65947cbc7e.mp4",
+                video="https://telegra.ph/file/b50f2a808f8f51f3124e8.jpg",
                 caption="Yes B!tch, I Am Alive And Working Fine. \nCheck Out The Buttons Mentioned Below.",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
