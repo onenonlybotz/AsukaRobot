@@ -61,34 +61,35 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 *Hey B!tch {},*
-*Myself 𝗔𝘀𝘂𝗸𝗮 𝗟𝗮𝗻𝗴𝗹𝗲𝘆 𝗦𝗼𝗿𝘆𝘂, Pilot On Evangelion Unit-02 As Well As A Powerful Group Management Bot.*
+*Myself As Well As A Powerful Group Management Bot.I Can Managed Your Group.*
 
-❍ *EVA Unit - 02*
-❍ *Uptime* - {}
-❍ *Python Version* - {}
+➖➖➖➖➖➖➖➖➖➖➖➖➖
+× *Uptime:* {}
+× {} *users, across* {} *chats.*
+➖➖➖➖➖➖➖➖➖➖➖➖➖
 
 *Hit The The Help Button To Get List Of My Commands.××*
 
-*• @AsukaRobot Powered By* [𝗞𝗮𝗶𝘇𝘂𝗿𝘆𝘂](https://t.me/TheKaizuryu)
+*»•[Telegram Bot](T.me/Hypermen_rbot) » Powered By* [𓆩𝐒 𝐀 𝐌𓆪™](https://t.me/Piro_x_power)
 """
 
 buttons = [
     [
                         InlineKeyboardButton(
-                             text="➕️ Add Asuka To Your Chat ➕️",
-                             url="https://t.me/AsukaRobot?startgroup=true"),
+                             text="➕️ Add me To Your Chat ➕️",
+                             url="https://t.me/Super_x_robot?startgroup=true"),
                     ],
                    [
                        InlineKeyboardButton(
-                             text="Kaizuryu",
-                             url="https://t.me/TheKaizuryu"),
+                             text="🔸Updates",
+                             url="https://t.me/Team_bot_update"),
                        InlineKeyboardButton(
-                             text="About Asuka",
+                             text="About Bot ❔",
                              callback_data="asuka_"),
                    ],
                   [
                         InlineKeyboardButton(
-                             text="Help & Cmds ❔",
+                             text="⚒️ Help & Cmds ⚒️",
                              callback_data="help_back"),
                     ],
     ]
@@ -98,18 +99,18 @@ ABOUT1 = """
 """
 
 ABOUT2 = """
-*‣ Asuka Support Chats*\nJoin My Support Group/Channel For Reporting Problems And Updates On @AsukaRobot.
+*‣ Super x Support Chats*\nJoin My Support Group/Channel For Reporting Problems And Updates On @Super_x_robot.
 """
 
 REPO_TXT = """
 *‣ Owner:*
-• [Xelcius](t.me/xelcius)
+• [𓆩𝐒 𝐀 𝐌𓆪™](t.me/Piro_x_power)
 \n*‣ Note:*
 • If You Want This Bot's Repo You Can Get It From The Button Below.
-• Report Any Kind Of Bugs At [Support](t.me/AsukaSupport)
+• Report Any Kind Of Bugs At [Support](t.me/Team_bot_update)
 """
 
-ABOUT3 = """Hello [{}], My name is *Asuka Langley Soryu*. A Powerful Telegram Group Management Bot built to help you manage Group easily.
+ABOUT3 = """Hello [{}], My name is *SuPer x Robot*. A Powerful Telegram Group Management Bot built to help you manage Group easily.
             \n ‣ I can Restrict Users.
             \n ‣ I can Greet Users with customizable welcome message and even set a group rules
             \n ‣ I have an advanced Anti-Flood System which will help you to safe group from Spammmer.
@@ -120,7 +121,7 @@ ABOUT3 = """Hello [{}], My name is *Asuka Langley Soryu*. A Powerful Telegram Gr
             \n\n*If you have any Question, You can join Support Chat. My Developer Team will Answer. Check Support Button Below*"""
 
 HELP_STRINGS = """
-Hey [{}] *Asuka* here!
+Hey [{}] *SuPerxRobot* here!
 I Help Admins To Manage Their Groups!
 Main commands available :
  ‣ /help: PM's you this message.
@@ -133,7 +134,7 @@ For all command use / or !
 """
 
 ACRUISE = """
-💫 𝐏𝐥𝐞𝐚𝐬𝐞 𝐉𝐨𝐢𝐧 @Anime_Cruise !!!
+💫 𝐏𝐥𝐞𝐚𝐬𝐞 𝐉𝐨𝐢𝐧 @Team_bot_update !!!
 
 • 𝐔𝐩𝐥𝐨𝐚𝐝𝐢𝐧𝐠 𝐀𝐥𝐥 𝐋𝐚𝐭𝐞𝐬𝐭 𝐀𝐧𝐢𝐦𝐞𝐬.
 • 𝐇𝐢𝐠𝐡 𝐐𝐮𝐚𝐥𝐢𝐭𝐲 𝐀𝐧𝐢𝐦𝐞, 𝐋𝐨𝐰 𝐒𝐢𝐳𝐞.
@@ -170,7 +171,7 @@ PM_PHOTO = "https://telegra.ph/file/fefd65c0e2ccb00453407.jpg"
 
 Asuka_DISPACHER_PIC = "https://telegra.ph/file/d03f381c8178a8fd2dc27.jpg"
 
-DONATE_STRING = """ Adding Me To Your Groups Is Donation For Me Though I Would Appreciate If You Join My Creator's Network @TheKaizuryu"""
+DONATE_STRING = """ Adding Me To Your Groups Is Donation For Me Though I Would Appreciate If You Join My Creator's Network @Team_bot_update"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -316,10 +317,10 @@ def start(update: Update, context: CallbackContext):
                   [
                        InlineKeyboardButton(
                              text="Support",
-                             url="t.me/AsukaSupport"),
+                             url="T.me/team_bot_support"),
                        InlineKeyboardButton(
                              text="Updates",
-                             url="t.me/AsukaUpdates")
+                             url="T.me/team_bot_Update")
                      ]
                 ]
             ),
@@ -386,7 +387,7 @@ def help_button(update, context):
             help_buttons.append(
                 [
                     InlineKeyboardButton(text="Back", callback_data="help_back"),
-                    InlineKeyboardButton(text='Support', url='https://t.me/AsukaSupport')
+                    InlineKeyboardButton(text='Support', url='T.me/team_bot_support')
                 ]
                     )
             query.message.edit_caption(
@@ -452,8 +453,8 @@ def about_callback_data(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Support", url="t.me/AsukaSupport"),
-                    InlineKeyboardButton(text="Updates", url="t.me/AsukaUpdates"),
+                    InlineKeyboardButton(text="Support", url="T.me/team_bot_support"),
+                    InlineKeyboardButton(text="Updates", url="T.me/team_bot_Update"),
                  ],
                  [
                     InlineKeyboardButton(text="Back", callback_data="asuka_")
@@ -474,8 +475,8 @@ def repo_callback_data(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Source Code", url="https://github.com/RimuruDemonlord/AsukaRobot"),
-                    InlineKeyboardButton(text="Kaizuryu", url="t.me/TheKaizuryu"),
+                    InlineKeyboardButton(text="🔸 Youtube", url="https://www.youtube.com/@harsh-shukla-xD"),
+                    InlineKeyboardButton(text="Creator 📡", url="t.me/Piro_x_power"),
                  ],
                  [
                     InlineKeyboardButton(text="Back", callback_data="asuka_")
@@ -503,11 +504,11 @@ def asuka_callback_data(update, context):
                 [
                  [
                     InlineKeyboardButton(text="Try Inline", switch_inline_query_current_chat=""),
-                    InlineKeyboardButton(text="Developer", url="t.me/Xelcius"),
+                    InlineKeyboardButton(text="Developer", url="t.me/Official_pro_xD"),
                  ],
                  [
                     InlineKeyboardButton(text="Support", callback_data="about_back"),
-                    InlineKeyboardButton(text="Source Code", url="https://github.com/RimuruDemonlord/AsukaRobot"),
+                    InlineKeyboardButton(text="Youtube 🔸", url="https://www.youtube.com/@harsh-shukla-xD"),
                  ],
                  [
                     InlineKeyboardButton(text="Back", callback_data="asuka_back")
@@ -559,7 +560,7 @@ def get_help(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                   [
-                  InlineKeyboardButton(text=" Click here", url="https://t.me/AsukaRobot?start=help")
+                  InlineKeyboardButton(text=" Click here", url="https://t.me/Super_x_robot?start=help")
                   ]
                 ]
             ),
@@ -798,14 +799,14 @@ def main():
                   [
                        InlineKeyboardButton(
                              text="Off-Topic",
-                             url="https://t.me/Anime_Chat_XKaizuryu")
+                             url="T.me/team_bot_support")
                      ]
                 ]
             ),
         )
         except Unauthorized:
             LOGGER.warning(
-                "Asuka can't able to send message to support_chat, go and check!")
+                "SuPer x Robot can't able to send message to support_chat, go and check!")
         except BadRequest as e:
             LOGGER.warning(e.message)
 
