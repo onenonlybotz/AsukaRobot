@@ -115,6 +115,9 @@ ABOUT3 = """Hello [{}], My name is *SuPer x Robot*. A Powerful Telegram Group Ma
             \n ‣ I have Note Keeping System, Blacklists, And even Predetermined replies on certain keywords.
             \n ‣ I check Admins Permissions before perform any Command and more Stuffs.
             \n ‣ I have an advanced Artificial Chatbot System, so can talk with users like humans.
+            \n » ❍ *EVA Unit - 02*
+                 ❍ *Uptime* - {}
+                 ❍ *Python Version* - {}
             \n\n*If you have any Question, You can join Support Chat. My Developer Team will Answer. Check Support Button Below*"""
 
 HELP_STRINGS = """
