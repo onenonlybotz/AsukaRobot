@@ -96,7 +96,7 @@ ABOUT1 = """
 """
 
 ABOUT2 = """
-*‣ Super x Support Chats*\nJoin My Support Group/Channel For Reporting Problems And Updates On [Click](t.me/Super_x_robot).
+*‣ Super x Support Chats*\nJoin My Support Group/Channel For Reporting Problems And Updates On .
 """
 
 REPO_TXT = """
