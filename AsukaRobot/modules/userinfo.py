@@ -240,10 +240,10 @@ def info(update: Update, context: CallbackContext):
     [
                         InlineKeyboardButton(
                              text="Health",
-                             url="https://t.me/AsukaUpdates/4"),
+                             url="https://t.me/Team_Bot_Update/66"),
                        InlineKeyboardButton(
                              text="Disasters",
-                             url="https://t.me/AsukaUpdates/5"),
+                             url="https://t.me/Team_Bot_Update/67"),
                     ],
     ]
     user_id = extract_user(update.effective_message, args)
@@ -467,15 +467,15 @@ def stats(update, context):
             status
             + "\n*Bot statistics*:\n"
             + "\n".join([mod.__stats__() for mod in STATS])
-            + f"\n\n[Support](https://t.me/{SUPPORT_CHAT}) | [Updates](https://t.me/AsukaUpdates)\n\n"
-            + "\n╘══「 by [The Kaizuryu](https://t.me/TheKaizuryu) 」\n",
+            + f"\n\n[🔸 Support](https://t.me/{SUPPORT_CHAT}) | [Updates ✦](https://t.me/Team_Bot_Update)\n\n"
+            + "\n╘══「 Powered By:- [𓆩𝐒 𝐀 𝐌𓆪™](https://t.me/piro_x_power) 」\n",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                   [                  
                        InlineKeyboardButton(
-                             text="Repo",
-                             url="t.me/AsukaSupport")
+                             text="Youtube Channel",
+                             url="https://www.youtube.com/@harsh-shukla-xD")
                      ] 
                 ]
             ),
@@ -488,17 +488,17 @@ def stats(update, context):
                         "\n*Bot statistics*:\n"
                         + "\n".join(mod.__stats__() for mod in STATS)
                     )
-                    + f"\n\n[Support](https://t.me/{SUPPORT_CHAT}) | [Updates](https://t.me/AsukaUpdates)\n\n"
+                    + f"\n\n[🔸 Support](https://t.me/{SUPPORT_CHAT}) | [Updates 🔸](https://t.me/Team_Bot_Update)\n\n"
                 )
-                + "╘══「 by [The Kaizuryu](https://t.me/TheKaizuryu) 」\n"
+                + "╘══「Powered by [𓆩𝐒 𝐀 𝐌𓆪™](https://t.me/Piro_x_power) 」\n"
             ),
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                   [                  
                        InlineKeyboardButton(
-                             text="Repo",
-                             url="t.me/AsukaSupport")
+                             text="Youtube Channel",
+                             url="https://www.youtube.com/@harsh-shukla-xD")
                      ] 
                 ]
             ),
