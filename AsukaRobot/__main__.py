@@ -63,11 +63,12 @@ PM_START_TEXT = """
 *Hey B!tch {},*
 *Myself As Well As A Powerful Group Management Bot.I Can Managed Your Group.*
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
-❍ `{}` *Users, Across* `{}` *Chats.*
-❍ *Uptime* - {}
+❍ *Uptime:* {}
 ❍ *Python Version* - {}
+❍ {} *users, across* {} *chats.*
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
-*Hit The The Help Button To Get List Of My Commands.××*
+*➛ Try The Help Buttons Below To Know My Abilities.××*
+
 *» Powered By:-* [𓆩𝐒 𝐀 𝐌𓆪™](https://t.me/Piro_x_power)
 """
 
