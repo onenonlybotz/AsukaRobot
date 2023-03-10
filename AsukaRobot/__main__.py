@@ -69,7 +69,7 @@ PM_START_TEXT = """
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
 *➛ Try The Help Buttons Below To Know My Abilities.××*
 
-*» Powered By:-* [𓆩𝐒 𝐀 𝐌𓆪™](https://t.me/Piro_x_power)
+*» Maintained By:-* [𓆩𝐒 𝐀 𝐌𓆪™](https://t.me/Piro_x_power)
 """
 
 buttons = [
