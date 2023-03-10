@@ -7,7 +7,7 @@ from AsukaRobot.utils.errors import capture_err
 __mod_name__ = "Github"
 
 
-@pbot.on_message(filters.command(["github", "git", f"git@AsukaRobot"]))
+@pbot.on_message(filters.command(["github", "git", f"git@SuPer_x_robot"]))
 @capture_err
 async def github(_, message):
     if len(message.command) != 2:
